@@ -1,7 +1,7 @@
 # Frontend Mentor - Results summary component
 
 ![Design preview for the Results summary component coding challenge](./preview.jpg)
-- [Demo](https://ahmed-let-front.github.io/result-summary-component-main/)
+## - [Demo](https://ahmed-let-front.github.io/result-summary-component-main/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
