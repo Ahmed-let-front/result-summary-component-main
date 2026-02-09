@@ -131,7 +131,7 @@ main {
   .dis-of-result {
     line-height: 1.4;
     font-size: clamp(13px, 5vw, 1rem);
-    inline-size: 95%;
+    inline-size: 87%;
     margin-inline: auto;
     font-weight: 300;
     text-align: center;
