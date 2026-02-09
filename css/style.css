@@ -79,7 +79,7 @@ main {
 .top-section {
   text-align: center;
   color: var(--White);
-  padding: 2rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -126,7 +126,8 @@ main {
   }
   .head-of-result {
     text-transform: capitalize;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    margin-block-end: 1rem;
   }
   .dis-of-result {
     line-height: 1.4;
