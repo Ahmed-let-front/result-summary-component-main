@@ -94,7 +94,7 @@ main {
   -webkit-border-radius: 0 0 20px 20px;
   .heading-of-section {
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 400;
   }
   .circle {
@@ -129,8 +129,9 @@ main {
     font-size: clamp(1rem, 5vw, 2rem);
   }
   .dis-of-result {
-    font-size: clamp(13px, 5vw, 0.8rem);
-    inline-size: 85%;
+    line-height: 1.4;
+    font-size: clamp(13px, 5vw, 1rem);
+    inline-size: 95%;
     margin-inline: auto;
     font-weight: 300;
     text-align: center;
@@ -142,7 +143,7 @@ main {
   flex-direction: column;
   gap: 1.2rem;
   .heading-of-section {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform: capitalize;
     color: var(--Dark-gray-blue, #303b5a);
   }
@@ -179,6 +180,7 @@ main {
   .continue {
     background-color: var(--Dark-gray-blue, #303b5a);
     color: var(--White, #ffffff);
+    font-weight: 600;
     text-transform: capitalize;
     padding: 1rem;
     border: none;
@@ -199,7 +201,7 @@ main {
   line-height: 1.4;
   margin: auto;
   text-align: center;
-  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  font-size: 0.8rem;
   inline-size: 70%;
   text-align: center;
   position: absolute;
@@ -218,18 +220,18 @@ main {
     place-items: center;
   }
   .your-results {
-    inline-size: 700px;
+    inline-size: 710px;
+    block-size: 500px;
     display: flex;
     overflow: hidden;
     box-shadow: 5px 5px 10px 1px rgba(200, 199, 255, 0.5);
-
     border-radius: 20px;
     -webkit-border-radius: 20px;
     .bottom-section {
       flex: 1;
       background-color: var(--White, #ffffff);
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
+      gap: 2rem;
+      padding-inline-start: 4rem;
       & > * {
         inline-size: 100%;
       }
@@ -239,15 +241,11 @@ main {
       margin-inline-end: -2rem;
       flex: 1;
       gap: 0;
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
+      border-radius: 40px;
+      -webkit-border-radius: 40px;
       .dis-of-result {
         margin-block-start: -2rem;
       }
-    }
-    .bottom-section {
-      padding: 2rem 4rem;
-      gap: 2rem;
     }
   }
 }
